@@ -24,6 +24,6 @@ where $g(t) \equiv \cos \left( \omega t + a x(t) \right)$. With some elementary
 algebra, we find that
 $$ \frac{d x(t)}{dt} = \frac{\omega \, g(t)}{1 - a \, g(t)} \,. $$
 Finally, rebalancing terms, with $h(t) \equiv g(t)^{-1}$,
-$$\boxed{ \diff{x(t)}{t} = \frac{\omega}{h(t) - a} \,. }$$
+$$\boxed{ \frac{d x(t)}{dt} = \frac{\omega}{h(t) - a} \,. }$$
 
 This equation is non-chaotic if $a \in [-1, +1)$.
